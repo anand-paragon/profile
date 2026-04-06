@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import profileImg from './profile.png';
 import AboutMe from './AboutMe';
 import Experience from './Experience';
 import Skills from './Skills';
+import Blogs from './Blogs';
 import Contact from './Contact';
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['about', 'experience', 'skills', 'contact'];
+      const sections = ['about', 'experience', 'skills', 'blogs', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -46,6 +48,7 @@ function App() {
             <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }} className={activeSection === 'about' ? 'active' : ''}>About</a></li>
             <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }} className={activeSection === 'experience' ? 'active' : ''}>Experience</a></li>
             <li><a href="#skills" onClick={(e) => { e.preventDefault(); scrollToSection('skills'); }} className={activeSection === 'skills' ? 'active' : ''}>Skills</a></li>
+            <li><a href="#blogs" onClick={(e) => { e.preventDefault(); scrollToSection('blogs'); }} className={activeSection === 'blogs' ? 'active' : ''}>Blogs</a></li>
             <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }} className={activeSection === 'contact' ? 'active' : ''}>Contact</a></li>
           </ul>
         </div>
@@ -56,7 +59,7 @@ function App() {
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <div className="hero-image-container">
-            <img src="https://avatars.githubusercontent.com/u/15969483?v=4" alt="Anakshiant" className="hero-image" />
+            <img src={profileImg} alt="Anakshiant" className="hero-image" />
           </div>
           <h1 className="hero-title">Anakshiant</h1>
           <p className="hero-subtitle">Software Developer & Technology Enthusiast</p>
@@ -72,6 +75,7 @@ function App() {
         <AboutMe />
         <Experience />
         <Skills />
+        <Blogs />
         <Contact />
       </main>
     </div>
