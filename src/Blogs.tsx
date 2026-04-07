@@ -10,25 +10,25 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    title: 'Getting Started with React 19',
-    description: 'Exploring the latest features in React 19 including the new compiler, server components, and improved hooks.',
-    url: 'https://example.com/react-19',
-    date: 'Mar 2026',
-    tags: ['React', 'JavaScript', 'Frontend'],
+    title: 'How Paragon Ships Integration Infrastructure for AI and SaaS Companies with a Startup-Sized Team',
+    description: 'Discover how Paragon builds and scales integration infrastructure for AI and SaaS companies with a lean, startup-sized team — covering engineering process, HIPAA compliance, and domain ownership.',
+    url: 'https://www.thehansindia.com/tech/how-paragon-ships-integration-infrastructure-for-ai-and-saas-companies-with-a-startup-sized-team-1062158',
+    date: 'Apr 2026',
+    tags: ['Paragon', 'SaaS', 'AI', 'Infrastructure'],
   },
   {
-    title: 'Building Scalable Node.js APIs',
-    description: 'Best practices for designing and building production-ready REST APIs with Node.js and Express.',
-    url: 'https://example.com/nodejs-apis',
-    date: 'Feb 2026',
-    tags: ['Node.js', 'Backend', 'API'],
+    title: 'AMP for Gmail with C#',
+    description: 'Learn how to send AMP emails with rich, dynamic content using C# SMTP API, including setup, configuration, and alternate MIME views.',
+    url: 'https://medium.com/@nndchaudhary8/amp-for-gmail-with-c-3a1be5c5dbde',
+    date: 'Jun 2019',
+    tags: ['C#', 'Gmail', 'AMP', 'Email'],
   },
   {
-    title: 'TypeScript Tips for Large Codebases',
-    description: 'Practical TypeScript patterns and techniques that help keep large projects maintainable.',
-    url: 'https://example.com/typescript-tips',
-    date: 'Jan 2026',
-    tags: ['TypeScript', 'Best Practices'],
+    title: 'Understanding CORS',
+    description: 'A beginner-friendly guide to Cross-Origin Resource Sharing (CORS), covering headers, preflight requests, and how to secure your web applications.',
+    url: 'https://dev.to/anakshiant/understanding-cors-2n26',
+    date: 'Jun 2019',
+    tags: ['CORS', 'Web Security', 'Node.js'],
   },
 ];
 
