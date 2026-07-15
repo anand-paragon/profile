@@ -10,6 +10,13 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    title: 'Anand Chaudhary: The Engineer Building The Infrastructure AI Agents Depend On',
+    description: 'As principal engineer at Paragon, Anand Chaudhary has led the development of a Workflow Engine that processes billions of event executions, and architected the data infrastructure AI agents depend on.',
+    url: 'https://www.outlookindia.com/hub4business/anand-chaudhary-the-engineer-building-the-infrastructure-ai-agents-depend-on',
+    date: 'May 2026',
+    tags: ['Paragon', 'AI', 'Infrastructure', 'Engineering'],
+  },
+  {
     title: 'How Paragon Ships Integration Infrastructure for AI and SaaS Companies with a Startup-Sized Team',
     description: 'Discover how Paragon builds and scales integration infrastructure for AI and SaaS companies with a lean, startup-sized team — covering engineering process, HIPAA compliance, and domain ownership.',
     url: 'https://www.thehansindia.com/tech/how-paragon-ships-integration-infrastructure-for-ai-and-saas-companies-with-a-startup-sized-team-1062158',
