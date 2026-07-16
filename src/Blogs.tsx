@@ -10,6 +10,13 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    title: 'The Invisible Layer Holding Up The AI Boom And How An Expert Is Building It',
+    description: 'While the industry obsesses over models and chatbots, the harder problem sits underneath: getting AI agents to actually work with the software businesses already use — and how Anand Chaudhary is building that infrastructure at Paragon.',
+    url: 'https://www.republicworld.com/tech/the-invisible-layer-holding-up-the-ai-boom-and-how-an-expert-is-building-it-2026-07-14-132310',
+    date: 'Jul 2026',
+    tags: ['Paragon', 'AI', 'Infrastructure', 'Engineering'],
+  },
+  {
     title: 'Anand Chaudhary: The Engineer Building The Infrastructure AI Agents Depend On',
     description: 'As principal engineer at Paragon, Anand Chaudhary has led the development of a Workflow Engine that processes billions of event executions, and architected the data infrastructure AI agents depend on.',
     url: 'https://www.outlookindia.com/hub4business/anand-chaudhary-the-engineer-building-the-infrastructure-ai-agents-depend-on',
