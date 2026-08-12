@@ -10,6 +10,13 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    title: 'AI agents are getting smarter. But can they actually get work done?',
+    description: 'The AI race is moving beyond chatbots toward agents that can access data, use software, and complete tasks — but smarter models alone may not be enough. Anand Chaudhary explains why reliable integrations with CRMs, databases, and business systems are what turn reasoning into action.',
+    url: 'https://economictimes.indiatimes.com/news/company/corporate-trends/ai-agents-are-getting-smarter-but-can-they-actually-get-work-done/articleshow/133182739.cms',
+    date: 'Aug 2026',
+    tags: ['Paragon', 'AI', 'Infrastructure', 'Engineering'],
+  },
+  {
     title: 'The Invisible Layer Holding Up The AI Boom And How An Expert Is Building It',
     description: 'While the industry obsesses over models and chatbots, the harder problem sits underneath: getting AI agents to actually work with the software businesses already use — and how Anand Chaudhary is building that infrastructure at Paragon.',
     url: 'https://www.republicworld.com/tech/the-invisible-layer-holding-up-the-ai-boom-and-how-an-expert-is-building-it-2026-07-14-132310',
